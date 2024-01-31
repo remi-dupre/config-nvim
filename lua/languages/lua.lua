@@ -1,7 +1,7 @@
-vim.api.nvim_create_autocmd('FileType', {
+vim.api.nvim_create_autocmd('filetype', {
     pattern = "lua",
     callback = function()
-        vim.cmd [[ set tw=100 ]]
+        vim.cmd [[ set shiftwidth=2 ]]
     end
 })
 
