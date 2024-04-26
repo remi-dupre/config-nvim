@@ -6,7 +6,7 @@ if not vim.loop.fs_stat(lazypath) then
     "clone",
     "--filter=blob:none",
     "https://github.com/folke/lazy.nvim.git",
-    "--branch=stable",     -- latest stable release
+    "--branch=stable", -- latest stable release
     lazypath,
   })
 end
@@ -37,14 +37,14 @@ require('lazy').setup({
   'jose-elias-alvarez/null-ls.nvim',
 
   -- A completion plugin for neovim coded in Lua
-  'hrsh7th/cmp-buffer',         -- nvim-cmp source for buffer words
-  'hrsh7th/cmp-cmdline',        -- nvim-cmp source for vim's cmdline
-  'hrsh7th/cmp-nvim-lsp',       -- LSP source for nvim-cmp
-  'hrsh7th/cmp-path',           --  nvim-cmp source for path
-  'hrsh7th/nvim-cmp',           -- Autocompletion plugin
-  'saadparwaiz1/cmp_luasnip',   -- Snippets source for nvim-cmp
-  'L3MON4D3/LuaSnip',           -- Snippets plugin
-  'onsails/lspkind.nvim',       --  vscode-like pictograms for neovim lsp completion items
+  'hrsh7th/cmp-buffer',       -- nvim-cmp source for buffer words
+  'hrsh7th/cmp-cmdline',      -- nvim-cmp source for vim's cmdline
+  'hrsh7th/cmp-nvim-lsp',     -- LSP source for nvim-cmp
+  'hrsh7th/cmp-path',         --  nvim-cmp source for path
+  'hrsh7th/nvim-cmp',         -- Autocompletion plugin
+  'saadparwaiz1/cmp_luasnip', -- Snippets source for nvim-cmp
+  'L3MON4D3/LuaSnip',         -- Snippets plugin
+  'onsails/lspkind.nvim',     --  vscode-like pictograms for neovim lsp completion items
 
   -- Find, Filter, Preview, Pick. All lua, all the time
   {
@@ -107,4 +107,3 @@ require('Comment').setup()
 require('gitsigns').setup()
 require('nvim-autopairs').setup()
 require('nvim-tree').setup()
-
