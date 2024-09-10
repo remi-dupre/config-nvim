@@ -87,13 +87,15 @@ require('lazy').setup({
   -- Vim configuration for Fish
   'nickeb96/fish.vim',
 
+  --  Vim syntax for helm templates (yaml + gotmpl + sprig + custom)
+  'towolf/vim-helm',
+
   -- Fully featured & enhanced replacement for copilot.vim complete with API for interacting with
   -- Github Copilot
   -- 'zbirenbaum/copilot.lua',
 })
 
 require 'config.cmp'
--- require 'config.copilot'
 require 'config.gitblame'
 require 'config.gitlinker'
 require 'config.ident-blankline'

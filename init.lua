@@ -78,4 +78,3 @@ vim.cmd [[
     hi DiffChange   guibg=234   ctermbg=234
     hi DiffDelete   guibg=234   ctermbg=234
 ]]
-
