@@ -33,8 +33,9 @@ require('lazy').setup({
   --  Quickstart configs for Nvim LSP
   'neovim/nvim-lspconfig',
 
-  -- Use Neovim as a language server to inject LSP diagnostics, code actions, and more via Lua
-  'jose-elias-alvarez/null-ls.nvim',
+  --  null-ls.nvim reloaded / Use Neovim as a language server to inject LSP
+  --  diagnostics, code actions, and more via Lua.
+  'nvimtools/none-ls.nvim',
 
   -- A completion plugin for neovim coded in Lua
   'hrsh7th/cmp-buffer',       -- nvim-cmp source for buffer words
@@ -100,7 +101,7 @@ require 'config.gitblame'
 require 'config.gitlinker'
 require 'config.ident-blankline'
 require 'config.lualine'
-require 'config.null_ls'
+require 'config.none_ls'
 require 'config.telescope'
 require 'config.treesitter'
 
