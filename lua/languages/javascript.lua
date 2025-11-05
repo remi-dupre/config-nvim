@@ -1,2 +1,1 @@
-require('lspconfig').ts_ls.setup {}
-
+vim.lsp.enable("ts_ls")

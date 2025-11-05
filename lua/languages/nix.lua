@@ -1,1 +1,1 @@
-require 'lspconfig'.nixd.setup {}
+vim.lsp.enable("nixd")

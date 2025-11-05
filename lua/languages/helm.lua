@@ -1,10 +1,10 @@
-require('lspconfig').helm_ls.setup {
+vim.lsp.config("helm_ls", {
   settings = {
-    ['helm-ls'] = {
+    ["helm-ls"] = {
       valuesFiles = {
         mainValuesFile = "values.yaml",
-        additionalValuesFilesGlobPattern = "values.*.yaml"
+        additionalValuesFilesGlobPattern = "values.*.yaml",
       },
     },
-  }
-}
+  },
+})
