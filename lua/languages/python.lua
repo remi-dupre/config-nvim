@@ -5,8 +5,9 @@ vim.api.nvim_create_autocmd("FileType", {
 	end,
 })
 
-vim.lsp.enable("ruff")
 vim.lsp.enable("pylsp")
+vim.lsp.enable("ruff")
+vim.lsp.enable("ty")
 
 vim.lsp.config("pylsp", {
 	settings = {
